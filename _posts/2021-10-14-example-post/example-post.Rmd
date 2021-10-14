@@ -8,6 +8,9 @@ date: 2021-10-14
 output:
   distill::distill_article:
     self_contained: false
+categories: 
+  - Example blog
+preview: img/Lincoln's-Inn-Fields-and-the-localities-adjacent-p264.jpg  
 ---
 
 
@@ -31,4 +34,14 @@ Once the post has been created, knit this to create an html page by either using
 If GitHub Actions are set up on the repository though the RMarkdowns do not need to be knitted locally as this is coded to occur on GitHub. See the [About page](https://cdu-data-science-team.github.io/distill-blog-template/about.html) for more information.
 
 
+# Preview picture
 
+The picture listed in the `yaml` called `img/Lincoln's-Inn-Fields-and-the-localities-adjacent-p264.jpg` shows up in the main page. This particular picture is from the [British Library](https://www.flickr.com/photos/britishlibrary/11142658024/in/album-72157715098178598/) and has no copyright restrictions. Other commons copyright pictures can be found through Jenny Bryan's GitHub repository [free-photos](https://github.com/jennybc/free-photos).
+
+# Colour and font
+
+[NHS branding](https://www.england.nhs.uk/nhsidentity/identity-guidelines/fonts/) recommends using Arial as the secondary font. The primary, Frutiger, is paid for so is not used in this site.
+
+The colour of the band is from the [NHS colour branding](https://www.england.nhs.uk/nhsidentity/identity-guidelines/colours/) from Level 3: NHS support greens.
+
+Both settings can be found (and changed) in the `styles.css` file.
