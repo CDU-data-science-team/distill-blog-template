@@ -15,7 +15,7 @@
     ],
     "contents": "\nCreate a post\nType distill::create_post(\"Example post\") and the folder is set up with the date run in the name in the folder _posts \nThere are further details on posts on the RStudio {distill} site.\nKnit the post\nOnce the post has been created, knit this to create an html page by either using the Knit button in RStudio (a ball of wool with needles icon) or typing the shortcut keys  Ctrl + Shift + K .\nGitHub Actions\nIf GitHub Actions are set up on the repository though the RMarkdowns do not need to be knitted locally as this is coded to occur on GitHub. See the About page for more information.\nPreview picture\nThe picture listed in the yaml called img/Lincoln's-Inn-Fields-and-the-localities-adjacent-p264.jpg shows up in the main page. This particular picture is from the British Library and has no copyright restrictions. Other commons copyright pictures can be found through Jenny Bryan’s GitHub repository free-photos.\nColour and font\nNHS branding recommends using Arial as the secondary font. The primary, Frutiger, is paid for so is not used in this site.\nThe colour of the band is from the NHS colour branding from Level 3: NHS support greens.\nBoth settings can be found (and changed) in the styles.css file.\n\n\n\n",
     "preview": "posts/2021-10-14-example-post/img/Lincoln's-Inn-Fields-and-the-localities-adjacent-p264.jpg",
-    "last_modified": "2021-10-14T14:59:11+00:00",
+    "last_modified": "2021-10-14T15:08:44+00:00",
     "input_file": {}
   }
 ]
