@@ -5,6 +5,7 @@ on:
 name: Render & Deploy Site
 
 jobs:
+  pkgdown:
     runs-on: ubuntu-latest
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
