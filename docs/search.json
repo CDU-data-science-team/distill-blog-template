@@ -5,7 +5,7 @@
       "title": "Distill blog site",
       "author": [],
       "contents": "\nBackground\nSetting up a {distill} site for blogging is relatively straight forward but can be daunting if you are new to R or new to blog sites. This skeleton has been set up from an existing blog site from the CDU Data Science Team in Nottinghamshire Healthcare NHS Foundation Trust to explain the parts of the site and also to act as a ready template for a new site.\nResources\nThe supporting site for {distill} is a great resource which links to example sites and is, itself, a {distill} site which uses much of its features.\nCopying the template\nThis repository in GitHub has been set to be a template site and in selecting the green button that says Template it is possible to copy the repository and also, usefully, remove all branches and history commits so the repository starts in a cleaner state.\nGitHub Actions\n{distill} sites rely upon being built as part of the coding. In RStudio this can be done using the Build tab/Build Website button in the (default area) top right panel. Code can be used in the Console to do this:\nrmarkdown::render_site(encoding = 'UTF-8')\nAfter a post has been written it needs to be rendered to html and then the site needs to be built but to save this work it is possible to have this all coded for GitHub to run a GitHub Action. In the folder called .github/workflows/ the file main.yml contains all the code that is required to build the website automatically.\nOn GitHub the Actions can be found from its own tab:\n.\nAs the yml has already been set up for this template repository the following is needed to set up the other necessary parts and these next steps are taken from Matt Dray’s blog which is for a different Action but is still very useful:\nNote that this is code that needs to be written in the Terminal tab of RStudio or through something like Git Bash as this is working with Git and not R.\n\nSet-up an empty ‘gh-pages’ branch in your repo (the book has some code to do this from the command line)\n\nNote that the last line from the book says git checkout master and GitHub has moved to naming the default branch to main so you won’t have a master branch and this last line should error.\n\nFrom your repo settings, set GitHub Pages to serve from the root of the gh-pages branch\n\nThis is referring to the tab Settings in GitHub and although Matt’s instructions say to use root, this repository works from docs:\nSnapshot of the Settings page on GitHub showing the docs folder selected in the settings\nWait a few minutes and navigate to your site (in the form ‘username.github.io/reponame’)\n\nIt’s important to wait a few minutes as the loading of the GitHub site is not always instant. If the loading fails you may get an email to let you know.\n!!\nBecause the GitHub Action builds the site on GitHub every time a push is made, the new commits made remotely will need to be pulled locally as it will be ahead. Getting into the habit of using pull before pushing any local work to GitHub is good practice as it’s valuable to do this when collaborating with others so you always get any updates others have made.\n\n\n\n",
-      "last_modified": "2021-10-14T14:24:37+00:00"
+      "last_modified": "2021-10-14T14:31:55+00:00"
     },
     {
       "path": "example-article.html",
@@ -19,14 +19,14 @@
       ],
       "date": "10-14-2021",
       "contents": "\nThis is an area in the site where specific articles can be referenced. It’s a good place to highlight specific topics or pieces of information for example, accessibility.\n\n\n\n",
-      "last_modified": "2021-10-14T14:24:37+00:00"
+      "last_modified": "2021-10-14T14:31:56+00:00"
     },
     {
       "path": "index.html",
-      "title": "Understanding Your Data",
+      "title": "Distill blog template",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2021-10-14T14:24:38+00:00"
+      "last_modified": "2021-10-14T14:31:56+00:00"
     }
   ],
   "collections": ["posts/posts.json"]
