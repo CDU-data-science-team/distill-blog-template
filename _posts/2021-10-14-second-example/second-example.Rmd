@@ -1,0 +1,24 @@
+---
+title: "Second Example"
+description: |
+  Testing a second example.
+author:
+  - name: Zoë Turner
+    url: {}
+date: 2021-10-14
+output:
+  distill::distill_article:
+    self_contained: false
+categories: 
+  - Example blog
+preview: img/The-Marches-of-Wales-p101.jpg
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Testing to see if the html output is created through GitHub Action.
+
+
