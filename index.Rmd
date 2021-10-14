@@ -1,5 +1,5 @@
 ---
-title: "Understanding Your Data"
+title: "Distill blog template"
 site: distill::distill_website
 listing: posts
 ---

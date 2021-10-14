@@ -24,7 +24,11 @@ There are further details on posts on the [RStudio {distill} site](https://rstud
 
 # Knit the post
 
-Once the post has been created, knit this to create an html page by either using the Knit button in RStudio (a ball of wool with needles icon) or typing the shortcut keys <kbd> Ctrl + Shift + K </kbd>.
+Once the post has been created, knit this to create an html page by either using the Knit button in RStudio (a ball of wool with needles icon) or typing the shortcut keys <kbd> Ctrl + Shift + K </kbd>. 
+
+#### GitHub Actions
+
+If GitHub Actions are set up on the repository though the RMarkdowns do not need to be knitted locally as this is coded to occur on GitHub. See the [About page](https://cdu-data-science-team.github.io/distill-blog-template/about.html) for more information.
 
 
 
