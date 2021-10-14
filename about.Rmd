@@ -38,13 +38,15 @@ Note that this is code that needs to be written in the Terminal tab of RStudio o
 
 Note that the last line from the book says `git checkout master` and GitHub has moved to naming the default branch to `main` so you won't have a `master` branch and this last line should error. 
 
-(@) From your repo settings, set GitHub Pages to serve from the root of the gh-pages branch
+> From your repo settings, set GitHub Pages to serve from the root of the gh-pages branch
 
 This is referring to the tab Settings in GitHub and although Matt's instructions say to use `root`, this repository works from `docs`:
 
 ![Snapshot of the Settings page on GitHub showing the docs folder selected in the settings](img/github-settings.PNG)
 
-(@) Wait a few minutes and navigate to your site (in the form ‘username.github.io/reponame’)
+> Wait a few minutes and navigate to your site (in the form ‘username.github.io/reponame’)
+
+It's important to wait a few minutes as the loading of the GitHub site is not always instant. If the loading fails you may get an email to let you know.
 
 !!
 

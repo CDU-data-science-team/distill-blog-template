@@ -1,0 +1,30 @@
+---
+title: "Example post"
+description: |
+  This is an example blog (referred to as post in {distill})
+author:
+  - name: Zoë Turner
+date: 2021-10-14
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Create a post
+
+Type `distill::create_post("Example post")` and the folder is set up with the date run in the name in the folder `_posts` ![Snapshot of the folder as it appears in the Files section of RStudio](img/post-folder.PNG)
+
+There are further details on posts on the [RStudio {distill} site](https://rstudio.github.io/distill/blog.html#creating-a-post).
+
+
+# Knit the post
+
+Once the post has been created, knit this to create an html page by either using the Knit button in RStudio (a ball of wool with needles icon) or typing the shortcut keys <kbd> Ctrl + Shift + K </kbd>.
+
+
+

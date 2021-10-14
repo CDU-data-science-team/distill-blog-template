@@ -2,31 +2,31 @@
   "articles": [
     {
       "path": "about.html",
-      "title": "Understanding Your Data",
+      "title": "Distill blog site",
       "author": [],
-      "contents": "\nBackground\nThe CDU Data Science team and Applied Information team initiated a workshop meeting with those interested in “understanding your data” in the first week of March 2021. This was started in response to our need to ensure that the solutions we create are understood by everyone and that we are concentrating on the right problems.\nThis will be a continuous two-way discussion facilitated by the CDU Data Science Team and will also include analysts from Applied Information and Performance.\nThe Understanding Your Data also links into the initiative of Data Clinics where particular specific support has been given to teams with their data. This has been facilitated by our Clinical Analyst.\nMeeting dates\nTo try to accommodate as many diaries as possible the day of the meeting will change each month and always be at the same time (1130-1230):\nMonday 26 July Blog post Tuesday 24 August Blog post Wednesday 29 September Slides from the meeting Thursday 28 October Friday 26 November Monday 20 December\nIf you would like to know more about these meetings and come along (meetings are on MS Teams), please contact CDU Data Science Team.\nFor Nottinghamshire Healthcare NHS Foundation Trust staff on the Trust network: The team’s calendar is open to view by selecting Folder/Select Calendar and searching for CDU Data Science.\n\n\n\n",
-      "last_modified": "2021-10-14T08:58:23+00:00"
+      "contents": "\r\nBackground\r\nSetting up a {distill} site for blogging is relatively straight forward but can be daunting if you are new to R or new to blog sites. This skeleton has been set up from an existing blog site from the CDU Data Science Team in Nottinghamshire Healthcare NHS Foundation Trust to explain the parts of the site and also to act as a ready template for a new site.\r\nResources\r\nThe supporting site for {distill} is a great resource which links to example sites and is, itself, a {distill} site which uses much of its features.\r\nCopying the template\r\nThis repository in GitHub has been set to be a template site and in selecting the green button that says Template it is possible to copy the repository and also, usefully, remove all branches and history commits so the repository starts in a cleaner state.\r\nGitHub Actions\r\n{distill} sites rely upon being built as part of the coding. In RStudio this can be done using the Build tab/Build Website button in the (default area) top right panel. Code can be used in the Console to do this:\r\nrmarkdown::render_site(encoding = 'UTF-8')\r\nAfter a post has been written it needs to be rendered to html and then the site needs to be built but to save this work it is possible to have this all coded for GitHub to run a GitHub Action. In the folder called .github/workflows/ the file main.yml contains all the code that is required to build the website automatically.\r\nOn GitHub the Actions can be found from its own tab:\r\n.\r\nAs the yml has already been set up for this template repository the following is needed to set up the other necessary parts and these next steps are taken from Matt Dray’s blog which is for a different Action but is still very useful:\r\nNote that this is code that needs to be written in the Terminal tab of RStudio or through something like Git Bash as this is working with Git and not R.\r\n\r\nSet-up an empty ‘gh-pages’ branch in your repo (the book has some code to do this from the command line)\r\n\r\nNote that the last line from the book says git checkout master and GitHub has moved to naming the default branch to main so you won’t have a master branch and this last line should error.\r\n\r\nFrom your repo settings, set GitHub Pages to serve from the root of the gh-pages branch\r\n\r\nThis is referring to the tab Settings in GitHub and although Matt’s instructions say to use root, this repository works from docs:\r\nSnapshot of the Settings page on GitHub showing the docs folder selected in the settings\r\nWait a few minutes and navigate to your site (in the form ‘username.github.io/reponame’)\r\n\r\nIt’s important to wait a few minutes as the loading of the GitHub site is not always instant. If the loading fails you may get an email to let you know.\r\n!!\r\nBecause the GitHub Action builds the site on GitHub every time a push is made, the new commits made remotely will need to be pulled locally as it will be ahead. Getting into the habit of using pull before pushing any local work to GitHub is good practice as it’s valuable to do this when collaborating with others so you always get any updates others have made.\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-10-14T12:19:11+01:00"
     },
     {
-      "path": "accessibility.html",
-      "title": "Accesssibility",
-      "description": "The CDU Data Science Team plan to discuss data accessibility in more depth in the Understanding Your Data meetings in the 29 September 2021 meeting. This page will detail those reflections and links.\n",
+      "path": "example-article.html",
+      "title": "Example Section",
+      "description": "This is an example section which appears on the top of the {distill} site\n",
       "author": [
         {
           "name": "Zoë Turner",
           "url": {}
         }
       ],
-      "date": "06-24-2021",
-      "contents": "\nA great deal of our data and analysis is produced in various formats that may not be accessible to everyone. Whilst the majority are happy with the formats, it may be prohibitive to those with specific needs to the extent that they may not even know that data can be provided in formats that are accessible to them.\nThe Government Statistical Society (GSS) are doing a lot of work around accessibility and the CDU Data Science Team wants to use these guidelines and promote them throughout the Trust and in our ICS. Consequently, we dedicated the September meeting of Understanding Your Data to starting the conversations around accessibility.\nA couple of example of accessibility that we’ve considered are:\nhaving a standard chart to accommodate accessibility for colour and contrast or at least having these charts available (without specific requests)\nmachine readable documentation which is useful for screen readers, but also for the programming tools we use as analyst and data scientists\naccessible formats for documentation and reports\nAlt text (alternative text) for charts and images (alternative text which is the written explanation of what a picture is showing)\nusing our data science tools to extract scanned pictures from pdfs which occur when documents are scanned. The tools we have use OCR (Optical Character Recognition) but still rely upon a person to see the text to extract\nMany of these have been inspired from GSS and from following individuals on Social Media, like Twitter, to learn about best practice and the difficulties different people face with data, analysis and visualisations. We are not experts in this area and are learning, and as we learn we are sharing.\nIf you are interested in this, please do get in touch with the team at CDU Data Science Team.\nSlides from September 2021’s meeting\n\n\n\n",
-      "last_modified": "2021-10-14T08:58:23+00:00"
+      "date": "10-14-2021",
+      "contents": "\r\nThis is an area in the site where specific articles can be referenced. It’s a good place to highlight specific topics or pieces of information for example, accessibility.\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-10-14T12:19:21+01:00"
     },
     {
       "path": "index.html",
       "title": "Understanding Your Data",
       "author": [],
-      "contents": "\n\n\n\n",
-      "last_modified": "2021-10-14T08:58:24+00:00"
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-10-14T12:19:24+01:00"
     }
   ],
   "collections": ["posts/posts.json"]

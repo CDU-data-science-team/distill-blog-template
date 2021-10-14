@@ -1,8 +1,7 @@
-name: "understanding-your-data"
-title: "Understanding Your Data"
-theme: hospital-theme.css
+name: "distill-blog-template"
+title: "Distill blog template"
 description: |
-  Understanding Your Data
+  Distill blog template
 output_dir: "docs"
 navbar:
   right:
@@ -10,12 +9,12 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
-    - text: "Accessibility"
-      href: accessibility.html
+    - text: "Example Article"
+      href: example-article.html
     - text: "CDU Blog"
       href: https://cdu-data-science-team.github.io/team-blog/
     - icon: fa fa-github
-      href: https://github.com/CDU-data-science-team/understanding-your-data
+      href: https://github.com/CDU-data-science-team/distill-blog-template
     - icon: fa fa-twitter
       href: https://twitter.com/DataScienceNott
 output: 

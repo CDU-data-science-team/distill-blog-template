@@ -1,0 +1,17 @@
+---
+title: "Example Section"
+description: |
+  This is an example section which appears on the top of the {distill} site
+author:
+  - name: Zoë Turner
+    affiliation: CDU Data Science Team
+    affiliation_url: https://cdu-data-science-team.github.io/team-blog/
+date: 10-14-2021
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+This is an area in the site where specific articles can be referenced. It's a good place to highlight specific topics or pieces of information for example, accessibility. 
