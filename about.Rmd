@@ -46,3 +46,6 @@ This is referring to the tab Settings in GitHub and although Matt's instructions
 
 (@) Wait a few minutes and navigate to your site (in the form ‘username.github.io/reponame’)
 
+!!
+
+Because the GitHub Action builds the site on GitHub every time a push is made, the new commits made remotely will need to be pulled locally as it will be ahead. Getting into the habit of using `pull` before pushing any local work to GitHub is good practice as it's valuable to do this when collaborating with others so you always get any updates others have made.
