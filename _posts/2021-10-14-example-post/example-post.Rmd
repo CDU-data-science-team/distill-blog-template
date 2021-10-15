@@ -31,8 +31,7 @@ Once the post has been created, knit this to create an html page by either using
 
 #### GitHub Actions
 
-If GitHub Actions are set up on the repository though the RMarkdowns do not need to be knitted locally as this is coded to occur on GitHub. See the [About page](https://cdu-data-science-team.github.io/distill-blog-template/about.html) for more information.
-
+Although the GitHub Actions build the site automatically, it does not extend to creating the `html` from the `Rmd` files as an action would have to refer to a particular file name which changes for each post. See the [About page](https://cdu-data-science-team.github.io/distill-blog-template/about.html) for more information on the building of the site.
 
 # Preview picture
 
